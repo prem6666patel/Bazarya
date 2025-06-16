@@ -8,7 +8,7 @@ const uploadImage = async (image) => {
     formData.append("image", image); // Ensure your backend expects "image" as the field name
 
     const response = await axios.post(
-      "http://localhost:5000/api/file/upload",
+      "https://bazarya-theta.vercel.app/api/file/upload",
       formData,
       {
         headers: {

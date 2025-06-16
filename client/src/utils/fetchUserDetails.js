@@ -5,7 +5,7 @@ const fetchUserDetails = async () => {
     const token = localStorage.getItem("accessToken");
 
     const response = await axios.get(
-      "http://localhost:5000/api/user/user-details",
+      "https://bazarya-theta.vercel.app/api/user/user-details",
       {
         headers: {
           Authorization: `Bearer ${token}`,
