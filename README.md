@@ -1,6 +1,7 @@
 **Bazarya - E-Commerce Grocery Store**
 
 **Description :-** 
+
 **Bazarya** is a modern full-stack e-commerce platform designed for online grocery shopping. It connects customers with a variety of fresh products, daily essentials, and organic items — all available at their fingertips.
 
 **Features : -**
