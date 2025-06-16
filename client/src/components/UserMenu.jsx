@@ -32,7 +32,7 @@ const UserMenu = ({ handleCloseUserMenu }) => {
       }
 
       const response = await axios.get(
-        "http://localhost:5000/api/user/logout",
+        "https://bazarya-theta.vercel.app/api/user/logout",
         {
           headers: {
             Authorization: `Bearer ${token}`,

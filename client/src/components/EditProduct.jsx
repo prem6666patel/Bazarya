@@ -144,7 +144,7 @@ const EditProduct = ({ data: initialData, close, fetchProductData }) => {
 
       // Update request with product ID
       const response = await axios.put(
-        `http://localhost:5000/api/product/update/${initialData._id}`,
+        `https://bazarya-theta.vercel.app/api/product/update/${initialData._id}`,
         data,
         {
           headers: {

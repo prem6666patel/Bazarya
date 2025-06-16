@@ -13,7 +13,7 @@ const OTPVerify = () => {
 
     try {
       const res = await axios.put(
-        "http://localhost:5000/api/user/verify-forgot-password-otp",
+        "https://bazarya-theta.vercel.app/api/user/verify-forgot-password-otp",
         { email, otp }
       );
 

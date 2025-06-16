@@ -31,7 +31,7 @@ const AddAddress = ({ close }) => {
       }
       // http://localhost:5000/api/category/update
       const res = await axios.post(
-        "http://localhost:5000/api/address/create",
+        "https://bazarya-theta.vercel.app/api/address/create",
         formData,
         {
           headers: {

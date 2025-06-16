@@ -42,7 +42,7 @@ const ProductList = () => {
       try {
         setLoading(true);
         const response = await axios.post(
-          "http://localhost:5000/api/product/getProductByCategoryAndSubCategory",
+          "https://bazarya-theta.vercel.app/api/product/getProductByCategoryAndSubCategory",
           { categoryId, subCategoryId }
         );
         setData(response.data.data);
@@ -71,7 +71,7 @@ const ProductList = () => {
       }
 
       await axios.post(
-        "http://localhost:5000/api/cart/create",
+        "https://bazarya-theta.vercel.app/api/cart/create",
         { productId: product._id },
         {
           headers: {

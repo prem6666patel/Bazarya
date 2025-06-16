@@ -19,7 +19,7 @@ const ResetPassword = () => {
 
     try {
       const res = await axios.put(
-        "http://localhost:5000/api/user/reset-password",
+        "https://bazarya-theta.vercel.app/api/user/reset-password",
         {
           email,
           newPassword,

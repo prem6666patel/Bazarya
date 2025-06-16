@@ -34,7 +34,7 @@ const UploadSubCategory = ({ close }) => {
       };
 
       const response = await axios.post(
-        "http://localhost:5000/api/subCategory/create",
+        "https://bazarya-theta.vercel.app/api/subCategory/create",
         payload,
         {
           headers: {

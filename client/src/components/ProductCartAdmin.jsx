@@ -11,7 +11,7 @@ const ProductCartAdmin = ({ data, fetchProductData }) => {
     try {
       const token = localStorage.getItem("accessToken");
       const response = await fetch(
-        `http://localhost:5000/api/product/delete/${data._id}`,
+        `https://bazarya-theta.vercel.app/api/product/delete/${data._id}`,
         {
           method: "DELETE",
           headers: {

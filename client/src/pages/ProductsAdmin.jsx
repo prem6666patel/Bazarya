@@ -19,7 +19,7 @@ const ProductsAdmin = () => {
       }
 
       const response = await axios.get(
-        "http://localhost:5000/api/product/getAll"
+        "https://bazarya-theta.vercel.app/api/product/getAll"
       );
 
       const { data: responseData } = response;

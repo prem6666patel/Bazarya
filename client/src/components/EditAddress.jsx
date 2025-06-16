@@ -32,7 +32,7 @@ const EditAddress = ({ close, data }) => {
       }
 
       const res = await axios.put(
-        `http://localhost:5000/api/address/update`,
+        `https://bazarya-theta.vercel.app/api/address/update`,
         formData,
         {
           headers: {

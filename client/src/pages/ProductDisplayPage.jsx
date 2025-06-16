@@ -20,7 +20,7 @@ const ProductDisplayPage = () => {
     const fetchProduct = async () => {
       try {
         const response = await axios.post(
-          "http://localhost:5000/api/product/getProductById",
+          "https://bazarya-theta.vercel.app/api/product/getProductById",
           { productId }
         );
 
@@ -51,7 +51,7 @@ const ProductDisplayPage = () => {
       }
 
       await axios.post(
-        "http://localhost:5000/api/cart/create",
+        "https://bazarya-theta.vercel.app/api/cart/create",
         { productId: product._id },
         {
           headers: {

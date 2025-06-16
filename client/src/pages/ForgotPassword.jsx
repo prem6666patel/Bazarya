@@ -11,7 +11,7 @@ const ForgotPassword = () => {
     e.preventDefault();
     try {
       const response = await axios.put(
-        "http://localhost:5000/api/user/forgot-password",
+        "https://bazarya-theta.vercel.app/api/user/forgot-password",
         {
           email,
         }

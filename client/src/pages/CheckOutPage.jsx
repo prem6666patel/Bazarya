@@ -48,7 +48,7 @@ const CheckOutPage = () => {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/api/order/cod",
+        "https://bazarya-theta.vercel.app/api/order/cod",
         {
           list_items: cartItem,
           totalQty,
@@ -114,7 +114,7 @@ const CheckOutPage = () => {
       const stripePromise = await loadStripe(stripePublicKey);
 
       const response = await axios.post(
-        "http://localhost:5000/api/order/onlinePayment",
+        "https://bazarya-theta.vercel.app/api/order/onlinePayment",
         {
           list_items: modifiedCartItems, // Use modified items
           totalQty,

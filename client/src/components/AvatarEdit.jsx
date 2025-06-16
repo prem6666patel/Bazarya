@@ -32,7 +32,7 @@ const AvatarEdit = ({ close }) => {
       formData.append("avatar", file);
 
       const response = await axios.put(
-        `http://localhost:5000/api/user/upload-avatar`,
+        `https://bazarya-theta.vercel.app/api/user/upload-avatar`,
         formData,
         {
           headers: {

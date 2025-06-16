@@ -18,7 +18,7 @@ const CategoryWiseProduct = ({ id, name }) => {
       try {
         setLoading(true);
         const response = await axios.post(
-          "http://localhost:5000/api/product/getProductByCategory",
+          "https://bazarya-theta.vercel.app/api/product/getProductByCategory",
           { id }
         );
         setProducts(response.data.data);

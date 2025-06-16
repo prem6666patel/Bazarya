@@ -33,7 +33,7 @@ const Category = () => {
     try {
       const token = localStorage.getItem("accessToken");
       const response = await axios.delete(
-        "http://localhost:5000/api/category/delete",
+        "https://bazarya-theta.vercel.app/api/category/delete",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -65,7 +65,7 @@ const Category = () => {
     try {
       setLoading(true);
       const response = await axios.get(
-        "http://localhost:5000/api/category/get"
+        "https://bazarya-theta.vercel.app/api/category/get"
       );
       if (response.data.success) {
         setCategoryData(response.data.data);

@@ -44,7 +44,7 @@ const GlobalProvider = ({ children }) => {
     const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
     try {
-      const response = await axios.get("http://localhost:5000/api/cart/get", {
+      const response = await axios.get("https://bazarya-theta.vercel.app/api/cart/get", {
         headers,
       });
 
@@ -64,7 +64,7 @@ const GlobalProvider = ({ children }) => {
       const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
       const response = await axios.put(
-        "http://localhost:5000/api/cart/update-qty",
+        "https://bazarya-theta.vercel.app/api/cart/update-qty",
         { _id: id, qty },
         { headers }
       );
@@ -84,7 +84,7 @@ const GlobalProvider = ({ children }) => {
       const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
       const response = await axios.delete(
-        "http://localhost:5000/api/cart/deleteCartItem",
+        "https://bazarya-theta.vercel.app/api/cart/deleteCartItem",
         {
           headers,
           data: { _id: cartId },
@@ -106,7 +106,7 @@ const GlobalProvider = ({ children }) => {
       const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
       const response = await axios.get(
-        "http://localhost:5000/api/address/get",
+        "https://bazarya-theta.vercel.app/api/address/get",
         {
           headers,
         }
@@ -129,7 +129,7 @@ const GlobalProvider = ({ children }) => {
       const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
       const response = await axios.get(
-        "http://localhost:5000/api/order/getOrderDetails",
+        "https://bazarya-theta.vercel.app/api/order/getOrderDetails",
         {
           headers,
         }
@@ -151,7 +151,7 @@ const GlobalProvider = ({ children }) => {
       const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
       const response = await axios.get(
-        "http://localhost:5000/api/order/getAllOrderDetails",
+        "https://bazarya-theta.vercel.app/api/order/getAllOrderDetails",
         {
           headers,
         }

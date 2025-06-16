@@ -29,7 +29,7 @@ const Register = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/user/register",
+        "https://bazarya-theta.vercel.app/api/user/register",
         {
           name: data.name,
           email: data.email,

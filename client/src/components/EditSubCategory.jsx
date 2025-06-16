@@ -60,7 +60,7 @@ const EditSubCategory = ({ close, category }) => {
 
      
       const response = await axios.put(
-        "http://localhost:5000/api/subcategory/update",
+        "https://bazarya-theta.vercel.app/api/subcategory/update",
         {
           id: data.id,
           name: data.name,

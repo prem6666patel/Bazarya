@@ -28,7 +28,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/user/login",
+        "https://bazarya-theta.vercel.app/api/user/login",
         {
           email: data.email,
           password: data.password,

@@ -55,7 +55,7 @@ const UploadCategory = ({ close }) => {
         return;
       }
       const response = await axios.post(
-        "http://localhost:5000/api/category/add-category",
+        "https://bazarya-theta.vercel.app/api/category/add-category",
         data,
         {
           headers: {

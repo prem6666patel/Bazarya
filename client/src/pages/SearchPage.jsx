@@ -23,7 +23,7 @@ const SearchPage = () => {
       }
 
       const response = await axios.get(
-        "http://localhost:5000/api/product/getAll",
+        "https://bazarya-theta.vercel.app/api/product/getAll",
         {
           headers: {
             Authorization: `Bearer ${token}`,

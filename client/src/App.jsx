@@ -39,7 +39,7 @@ function App() {
 
         dispatch(setLoadingCategory(true));
         const categoryResponse = await axios.get(
-          "http://localhost:5000/api/category/get",
+          "https://bazarya-theta.vercel.app/api/category/get",
           { headers }
         );
         if (categoryResponse.data.success) {
@@ -48,7 +48,7 @@ function App() {
         }
 
         const subCategoryResponse = await axios.post(
-          "http://localhost:5000/api/subCategory/get",
+          "https://bazarya-theta.vercel.app/api/subCategory/get",
           null,
           { headers }
         );

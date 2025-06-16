@@ -47,7 +47,7 @@ const SubCategory = () => {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/api/subCategory/get",
+        "https://bazarya-theta.vercel.app/api/subCategory/get",
         {},
         {
           headers: {
@@ -70,7 +70,7 @@ const SubCategory = () => {
     try {
       const token = localStorage.getItem("accessToken");
       const response = await axios.delete(
-        "http://localhost:5000/api/subCategory/delete",
+        "https://bazarya-theta.vercel.app/api/subCategory/delete",
         {
           headers: {
             Authorization: `Bearer ${token}`,

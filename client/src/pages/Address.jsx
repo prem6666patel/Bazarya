@@ -28,7 +28,7 @@ const Address = () => {
       }
 
       const res = await axios.delete(
-        "http://localhost:5000/api/address/disable",
+        "https://bazarya-theta.vercel.app/api/address/disable",
         {
           headers: {
             Authorization: `Bearer ${token}`,

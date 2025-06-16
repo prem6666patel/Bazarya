@@ -26,7 +26,7 @@ const CardProduct = ({ data }) => {
       }
 
       await axios.post(
-        "http://localhost:5000/api/cart/create", 
+        "https://bazarya-theta.vercel.app/api/cart/create", 
         { productId: data._id }, 
         {
           headers: {

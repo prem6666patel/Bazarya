@@ -57,7 +57,7 @@ const Orders = () => {
       };
 
       const response = await axios.put(
-        `http://localhost:5000/api/order/update-status/${orderId}`,
+        `https://bazarya-theta.vercel.app/api/order/update-status/${orderId}`,
         { delivery_status: newStatus },
         config
       );

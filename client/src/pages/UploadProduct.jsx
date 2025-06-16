@@ -133,7 +133,7 @@ const UploadProduct = () => {
 
       // Submit to backend
       const response = await axios.post(
-        "http://localhost:5000/api/product/create",
+        "https://bazarya-theta.vercel.app/api/product/create",
         data,
         {
           headers: {
