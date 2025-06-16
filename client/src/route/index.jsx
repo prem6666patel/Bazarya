@@ -13,7 +13,7 @@ import Profile from "../pages/Profile";
 import MyOrders from "../pages/MyOrders";
 import Address from "../pages/Address";
 import Category from "../pages/Category";
-import SubCategory from "../pages/subCategory";
+import SubCategory from "../pages/SubCategory";
 import UploadProduct from "../pages/uploadProduct";
 import Products from "../pages/Products";
 import ProductsAdmin from "../pages/ProductsAdmin";
