@@ -1,4 +1,4 @@
-**Bazarya - E-Commerce Grocery Store**
+**Bazarya - E-Commerce Store**
 
 **Description :-** 
 
