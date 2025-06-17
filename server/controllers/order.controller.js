@@ -125,7 +125,8 @@ export const getOrderDetailsController = async (req, res) => {
     const orderList = await orderModel
       .find({ userId: userId })
       .sort({ createdAt: -1 })
-      .populate("delivery_address");
+      .populate("delivery_address")
+      .populate("producId");
 
     if (!orderList.length) {
       return res.status(200).json({
