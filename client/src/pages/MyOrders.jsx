@@ -22,7 +22,7 @@ const MyOrders = () => {
               <img src={order.product_detail.image[0]} className="w-14 h-14" />
               <div>
                 <p className="font-medium">{order.product_detail.name}</p>
-                <p className="font-medium">{order.totalAmt} ₹</p>
+                <p className="font-medium">{order.producId.price} ₹</p>
                 <p className="font-medium">
                   payment status : {order.payment_status}
                 </p>
