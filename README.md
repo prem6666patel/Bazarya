@@ -18,13 +18,15 @@
 
 **Tech Stack :-**
 
-**Frontend**
+**Frontend :-**
+
+
 HTML
 Tailwind CSS
 JavaScript
 React
 
-**Backend**
+**Backend :-**
 REST APIs
 Node.js
 Express.js
