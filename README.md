@@ -22,14 +22,21 @@
 
 
 HTML
+
 Tailwind CSS
+
 JavaScript
+
 React
 
 **Backend :-**
+
 REST APIs
+
 Node.js
+
 Express.js
 
-**Database**
+**Database :-**
+
 MongoDB
