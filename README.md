@@ -21,15 +21,15 @@
 **Frontend :-**
 
 
-HTML
-Tailwind CSS
-JavaScript
+HTML,
+Tailwind CSS,
+JavaScript.
 React
 
 **Backend :-**
 
-REST APIs
-Node.js
+REST APIs,
+Node.js,
 Express.js
 
 **Database :-**
